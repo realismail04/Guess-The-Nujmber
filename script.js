@@ -40,4 +40,4 @@ function guessNumber() {
   }
 }
 
-guessNumber();
+document.getElementById("start-btn").addEventListener("click", guessNumber);
