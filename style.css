@@ -1,22 +1,25 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 50px;
+/* Responsive styling */
+#game-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
 h1 {
-    color: #333;
+  text-align: center;
 }
-
 p {
-    margin: 10px 0;
+  margin-top: 10px;
 }
-
-input {
-    padding: 8px;
-}
-
 button {
-    padding: 10px;
-    cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
